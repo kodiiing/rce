@@ -15,7 +15,7 @@ You will need:
 ## Running with Docker
 
 ```sh
-docker build -t spectator/rce .
+docker build -t kodiiing/rce .
 
-docker run -p 50051:50051 spectator/rce
+docker run -p 50051:50051 kodiiing/rce
 ```

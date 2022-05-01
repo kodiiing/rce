@@ -1,0 +1,8 @@
+language = "Go"
+version = "1.18.1"
+compiled = true
+extension = "go"
+build_command = [ "go", "build" ,"-o", "code", "{filename}" ]
+run_command = [ "./code" ]
+test_file = "test.go"
+aliases = [ "go", "golang" ]
